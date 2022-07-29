@@ -1,0 +1,81 @@
+
+ h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 48px;
+}
+h2:before{
+    content: url('Js.png');
+    padding: 2px;
+}
+ html, body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border:1px solid;
+  }
+  
+  .header {
+    position: absolute;
+    margin-top: -10px;
+    left:0;
+    right:0;
+    margin:5px;
+    padding:5px;
+    font-size: large;
+    padding: 10px;
+  }
+  
+  .footer {
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:5px;
+    padding:5px;
+    font-size: large;
+    padding: 10px;  
+  }
+  
+  .center {
+    position: absolute;
+    left:  20%;
+    right: 20%;
+    bottom:20%;
+    top: 20%;
+    margin:10px;
+    padding:10px;
+    font-size: large;
+      background-repeat: no-repeat;
+      background-size: cover;
+    padding: 10px;
+  }
+  .center>img{
+    width: 779px;
+  }
+  button{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: White;
+    background-color: green;
+    border-radius: 125px;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  button:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.19);
+  }

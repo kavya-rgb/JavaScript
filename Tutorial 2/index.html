@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Can Change HTML Attributes</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>How Can JavaScript Change HTML Attributes?</h2>
-    <img id="changeMe" src="https://wallpapercave.com/wp/wp11325594.jpg" alt="" height="380px">
-    <br>
-     <button type="button" onclick="myFunc()"> Click Me </button>
+    <div class="container">
+        <div class="header">
+          <h2>JavaScript Can Change HTML Attributes</h2>
+        </div>
+      
+        <div class="center">
+          <img src="https://wallpapercave.com/wp/wp11325594.jpg" alt="" id="changeMe">
+        </div>
+      
+        <div class="footer">
+            <center>
+            <button onclick="myFunc()">Click Me!</button>
+            </center>
+        </div>
+      </div>
 </body>
 </html>
